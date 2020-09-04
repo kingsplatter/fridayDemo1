@@ -1,13 +1,85 @@
 #wrapper {
   position: relative;
   margin: auto;
-  width: 500px;
+  width: 800px;
 }
 body {
   background-color: black;
   color: white;
 }
-h1 {
+h1, h2, h3 {
   text-align: center;
   font-family: courier;
+}
+.line {
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  background-color: brown;
+}
+#line1 {
+  top: 330px;
+  left: 380px;
+  transform: rotate(45deg);
+}
+#line2 {
+  top: 400px;
+  left: 100px;
+  transform: rotate(-65deg);
+}
+#line3 {
+  top: 500px;
+  left: 350px;
+  transform: rotate(75deg);
+}
+#line4 {
+  top: 100px;
+  left: 100px;
+  transform: rotate(15deg);
+}
+#line5 {
+  top: 500px;
+  left: 250px;
+  transform: rotate(-45deg);
+  width: 50px;
+}
+.callout {
+  position: absolute;
+  width: 155px;
+  height: 35px;
+  padding-top: 15px;
+  background-color: grey;
+  text-align: center;
+  color: darkred;
+}
+#callout1 {
+  top: 380px;
+  left: 500px;
+
+}
+#callout2 {
+  top: 460px;
+  left: 50px;
+}
+#callout3 {
+  top: 390px;
+  left: 330px;
+}
+#callout4 {
+  top: 75px;
+  left: 150px;
+}
+#dogThought {
+  top: 500px;
+  left: 230px;
+  width: 75px;
+  border-radius: 25px;
+}
+footer {
+  /* margin-top: 200px; */
+  text-align: center;
+  font-size: 10px;
+}
+sup {
+  font-size: 10px;
 }
